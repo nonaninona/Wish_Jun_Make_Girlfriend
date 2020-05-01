@@ -1,6 +1,6 @@
 #include "functions.h"
 
-int Render(Player** P1, Player** P2, Bullet** B1, Bullet** B2, int menu, int arrow) {
+int Render(Player* P1, Player* P2, Bullet* B1, Bullet* B2, int menu, int arrow) {
 
 	switch (menu) {
 	case 0: Render_MainMenu(arrow);
@@ -13,9 +13,9 @@ int Render(Player** P1, Player** P2, Bullet** B1, Bullet** B2, int menu, int arr
 int Render_MainMenu(int arrow) {
 
 }
-int Render_MainGame(Player** P1, Player** P2, Bullet** B1, Bullet** B2) {
+int Render_MainGame(Player* P1, Player* P2, Bullet* B1, Bullet* B2) {
 
 }
-int Render_Ending(Player** P1, Player** P2) {
+int Render_Ending(Player* P1, Player* P2) {
 
 }
