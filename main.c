@@ -13,8 +13,8 @@ int main() {
 
 	Init(&P1, &P2, &B1, &B2);
 	while (keepPlaying) {
-		keepPlaying = Update(&P1, &P2, &B1, &B2, &menu, &arrow);
-		Render(&P1, &P2, &B1, &B2, menu, arrow);
+		keepPlaying = Update(P1, P2, B1, B2, &menu, &arrow);
+		Render(P1, P2, B1, B2, menu, arrow);
 	}
 	Release(&P1, &P2, &B1, &B2);
 
